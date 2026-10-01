@@ -1,12 +1,12 @@
-# Atlas Studio — Links
+# Atlas Studio — Konsultan Brand & Desain, Bandung
 
-Link in bio Atlas Studio: konsultan brand & desain. Portofolio, layanan, dan kontak dalam satu kartu.
+Tautan Atlas Studio, konsultan brand dan desain di Bandung: indeks lima karya, catatan studio, layanan dengan harga tetap, dan jadwal pertemuan 30 menit.
 
 **Demo live:** https://linkinbio-atlas.vercel.app
 
 ![Tangkapan layar Atlas Studio](public/og.jpg)
 
-> Template link-in-bio dengan persona fiktif.
+> Template link-in-bio dengan persona fiktif. Akun, klien, harga, dan jadwal hanya contoh; tautan utama menuju halaman dalam yang benar-benar ada, dan formulir tidak mengirim data.
 
 ## Konsep
 
@@ -14,7 +14,9 @@ Persona Atlas Studio, konsultan brand. Layar terbelah gaya Swiss: panel tinta de
 
 ## Halaman
 
-`/`
+- `/` — panel tinta (jam Bandung, salin surel) + indeks tautan 01–04 yang membalik warna saat disorot
+- `/karya` — indeks lima karya (tabel) dan catatan studio
+- `/layanan` — tiga paket berharga tetap, proses, pemilih slot pertemuan
 
 ## Teknologi
 

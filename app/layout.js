@@ -8,10 +8,10 @@ const __jsonld = {"@context":"https://schema.org","@type":"Organization","name":
 
 export const metadata = {
   metadataBase: new URL("https://linkinbio-atlas.vercel.app"),
-  title: "Atlas Studio — Links",
-  description: "Link in bio Atlas Studio: konsultan brand & desain. Portofolio, layanan, dan kontak dalam satu kartu.",
+  title: { default: "Atlas Studio — Konsultan Brand & Desain, Bandung", template: "%s — Atlas Studio" },
+  description: "Tautan Atlas Studio, konsultan brand dan desain di Bandung: indeks lima karya, catatan studio, layanan dengan harga tetap, dan jadwal pertemuan 30 menit.",
   applicationName: "Atlas Studio",
-  keywords: ["link in bio", "brand studio", "desain", "konsultan brand", "portofolio"],
+  keywords: ["konsultan brand bandung", "desain identitas", "link in bio studio desain", "harga desain logo", "studio desain"],
   authors: [{ name: "Atlas Studio" }],
   creator: "Atlas Studio",
   publisher: "Atlas Studio",
@@ -21,14 +21,14 @@ export const metadata = {
     locale: "id_ID",
     url: "https://linkinbio-atlas.vercel.app",
     siteName: "Atlas Studio",
-    title: "Atlas Studio — Links",
-    description: "Link in bio Atlas Studio: konsultan brand & desain. Portofolio, layanan, dan kontak dalam satu kartu.",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Atlas Studio — Links" }],
+    title: "Atlas Studio — Konsultan Brand & Desain, Bandung",
+    description: "Tautan Atlas Studio, konsultan brand dan desain di Bandung: indeks lima karya, catatan studio, layanan dengan harga tetap, dan jadwal pertemuan 30 menit.",
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Atlas Studio — Konsultan Brand & Desain, Bandung" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Atlas Studio — Links",
-    description: "Link in bio Atlas Studio: konsultan brand & desain. Portofolio, layanan, dan kontak dalam satu kartu.",
+    title: "Atlas Studio — Konsultan Brand & Desain, Bandung",
+    description: "Tautan Atlas Studio, konsultan brand dan desain di Bandung: indeks lima karya, catatan studio, layanan dengan harga tetap, dan jadwal pertemuan 30 menit.",
     images: ["/og.jpg"],
   },
   robots: {
